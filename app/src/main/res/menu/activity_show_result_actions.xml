@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Copy -->
+    <item
+        android:id="@+id/action_copy"
+        android:icon="@drawable/ic_action_copy2"
+        android:title="Copy"
+        android:showAsAction="ifRoom" />
+
+    <!-- Read -->
+    <item
+        android:id="@+id/action_speak"
+        android:icon="@drawable/ic_action_speak"
+        android:title="Read"
+        android:showAsAction="never" />
+
+
+    <!-- Share -->
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share2"
+        android:title="Share"
+        android:showAsAction="ifRoom" />
+
+    <!-- Clear -->
+    <item
+        android:id="@+id/action_clear"
+        android:icon="@drawable/ic_action_clear"
+        android:title="Clear"
+        android:showAsAction="never" />
+
+    <!-- Help -->
+    <item
+        android:id="@+id/action_help"
+        android:icon="@drawable/ic_action_clear"
+        android:title="Help"
+        android:showAsAction="never" />
+
+    <!-- About -->
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_action_clear"
+        android:title="About"
+        android:showAsAction="never" />
+
+    <!-- Exit -->
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/ic_action_clear"
+        android:title="Exit"
+        android:showAsAction="never" />
+</menu>

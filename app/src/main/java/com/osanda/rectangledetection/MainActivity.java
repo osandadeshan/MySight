@@ -2,15 +2,16 @@ package com.osanda.rectangledetection;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 
-import org.opencv.android.OpenCVLoader;
-
+import com.osanda.R;
 import com.osanda.rectangledetection.models.CameraData;
 import com.osanda.rectangledetection.models.MatData;
 import com.osanda.rectangledetection.utils.OpenCVHelper;
 import com.osanda.rectangledetection.views.CameraPreview;
 import com.osanda.rectangledetection.views.DrawView;
+
+import org.opencv.android.OpenCVLoader;
+
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
