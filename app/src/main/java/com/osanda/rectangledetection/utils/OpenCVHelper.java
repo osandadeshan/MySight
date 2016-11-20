@@ -2,7 +2,9 @@ package com.osanda.rectangledetection.utils;
 
 import android.graphics.Path;
 import android.hardware.Camera;
-import android.util.Log;
+
+import com.osanda.rectangledetection.MainActivity;
+import com.osanda.rectangledetection.models.MatData;
 
 import org.opencv.core.Core;
 import org.opencv.core.CvType;
@@ -19,13 +21,18 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.osanda.rectangledetection.models.MatData;
-
 import rx.Observable;
 
 public class OpenCVHelper {
-    private static final String TAG = OpenCVHelper.class.getSimpleName();
 
+    private static final String TAG = OpenCVHelper.class.getSimpleName();
+    public static MainActivity mainactivity;
+    public static double screenHeight, screenWidth;
+
+    public static enum Movement {LEFT, RIGHT, FORWARD, BACKWARD, CLOSER, AWAY, STOPPED}
+
+    public static Movement move = Movement.STOPPED;
+    public static long prevTime = -1;
     public static Observable<MatData> resize(MatData matData, float requestWidth, float requestHeight) {
         return Observable.create(sub -> {
             Mat mat = matData.oriMat;
@@ -35,6 +42,10 @@ public class OpenCVHelper {
             float ratioH = height / requestHeight;
             float scaleRatio = ratioW > ratioH ? ratioW : ratioH;
             Size size = new Size(mat.width() / scaleRatio, mat.height() / scaleRatio);
+            // eranga begin
+            screenHeight = size.height;
+            screenWidth = size.width;
+            // eranga end
             Mat resultMat = new Mat(size, mat.type());
             Imgproc.resize(mat, resultMat, size);
             //Log.v(TAG, "request size:" + requestWidth + "," + requestHeight +" ,scale to:" + resultMat.width() + "," + resultMat.height());
@@ -118,6 +129,89 @@ public class OpenCVHelper {
 
                 List<Point> points = approx.toList();
                 int pointCount = points.size();
+                double threshold = 0.3;
+                // eranga begin
+                //if(prevTime == -1 || prevTime + 1000 < System.currentTimeMillis()) {
+                if (pointCount == 4 && screenWidth * screenHeight != 0) {
+                    double lbWidth = screenWidth * threshold / 2;
+                    double ubWidth = screenWidth * (1 - threshold / 2);
+                    double lbHeight = screenHeight * threshold / 2;
+                    double ubHeight = screenHeight * (1 - threshold / 2);
+                    ArrayList<Double> xCoordinates = new ArrayList<>();
+                    xCoordinates.add(points.get(0).x);
+                    xCoordinates.add(points.get(1).x);
+                    xCoordinates.add(points.get(2).x);
+                    xCoordinates.add(points.get(3).x);
+                    ArrayList<Double> yCoordinates = new ArrayList<>();
+                    yCoordinates.add(points.get(0).y);
+                    yCoordinates.add(points.get(1).y);
+                    yCoordinates.add(points.get(2).y);
+                    yCoordinates.add(points.get(3).y);
+                    double minX = Collections.min(xCoordinates);
+                    double maxX = Collections.max(xCoordinates);
+                    double minY = Collections.min(yCoordinates);
+                    double maxY = Collections.max(yCoordinates);
+                    if (maxX - minX > screenWidth * (1 - threshold) && maxY - minY > screenHeight * (1 - threshold)) {
+                        if (!move.equals(Movement.STOPPED)) {
+                            System.out.println("Device is in perfect position. Keep it stable");
+                            move = Movement.STOPPED;
+                            prevTime = System.currentTimeMillis();
+                            mainactivity.speakOut("stop moving");
+                        }
+                    } else {
+                        if (maxX - minX < screenWidth * (1 - threshold) && maxY - minY < screenHeight * (1 - threshold)) {
+                            if (!move.equals(Movement.CLOSER)) {
+                                System.out.println("Slowly move the device closer");
+                                move = Movement.CLOSER;
+                                prevTime = System.currentTimeMillis();
+                                mainactivity.speakOut("slowly move closer");
+                            }
+                        }
+                        if (minX < lbWidth) {
+                            if (!move.equals(Movement.BACKWARD)) {
+                                System.out.println("Slowly move the device backward");
+                                move = Movement.BACKWARD;
+                                prevTime = System.currentTimeMillis();
+                                mainactivity.speakOut("slowly move backward");
+                            }
+                        }
+                        if (maxX > ubWidth) {
+                            if (!move.equals(Movement.FORWARD)) {
+                                System.out.println("Slowly move the device forward");
+                                move = Movement.FORWARD;
+                                prevTime = System.currentTimeMillis();
+                                mainactivity.speakOut("slowly move forward");
+                            }
+                        }
+                        if (minY < lbHeight) {
+                            if (!move.equals(Movement.LEFT)) {
+                                System.out.println("Slowly move the device to the left side");
+                                move = Movement.LEFT;
+                                prevTime = System.currentTimeMillis();
+                                mainactivity.speakOut("slowly move left");
+                            }
+                        }
+                        if (maxY > ubHeight) {
+                            if (!move.equals(Movement.RIGHT)) {
+                                System.out.println("Slowly move the device to the right side");
+                                move = Movement.RIGHT;
+                                prevTime = System.currentTimeMillis();
+                                mainactivity.speakOut("slowly move right");
+                            }
+                        }
+                    }
+                } else if (pointCount != 4) {
+                    if (!move.equals(Movement.AWAY)) {
+                        System.out.println("Slowly move the device away from the material");
+                        move = Movement.AWAY;
+                        prevTime = System.currentTimeMillis();
+                        mainactivity.speakOut("slowly move away");
+                    }
+                }
+                //}else{
+                //    prevTime = System.currentTimeMillis();
+                //}
+                // eranga end
                 LinkedList<Double> cos = new LinkedList<>();
                 for (int j = 2; j < pointCount + 1; j++) {
                     cos.addLast(angle(points.get(j % pointCount), points.get(j - 2), points.get(j - 1)));
@@ -145,7 +239,8 @@ public class OpenCVHelper {
         double dy1 = pt1.y - pt0.y;
         double dx2 = pt2.x - pt0.x;
         double dy2 = pt2.y - pt0.y;
-        System.out.println("@@@@@@@@@@@@@@@@@@@@@@: 0: " + pt0.x + ", " + pt0.x + "\t1: " + pt1.x + ", " + pt1.x + "\t2: " + pt2.x + ", " + pt2.x);
+        //System.out.println("@@@@@@@@@@@@@@@@@@@@@@: 0: " + pt0.x + ", " + pt0.x + "\t1: " + pt1.x + ", " + pt1.x + "\t2: " + pt2.x + ", " + pt2.x);
+        //System.out.println("DSA" + (dx1 * dx2 + dy1 * dy2) / Math.sqrt((dx1 * dx1 + dy1 * dy1) * (dx2 * dx2 + dy2 * dy2) + 1e-10));
         return (dx1 * dx2 + dy1 * dy2) / Math.sqrt((dx1 * dx1 + dy1 * dy1) * (dx2 * dx2 + dy2 * dy2) + 1e-10);
     }
 

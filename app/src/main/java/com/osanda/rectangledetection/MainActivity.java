@@ -1,7 +1,10 @@
 package com.osanda.rectangledetection;
 
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.widget.Toast;
 
 import com.osanda.R;
 import com.osanda.rectangledetection.models.CameraData;
@@ -12,12 +15,15 @@ import com.osanda.rectangledetection.views.DrawView;
 
 import org.opencv.android.OpenCVLoader;
 
+import java.util.Locale;
+
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 import rx.subjects.PublishSubject;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
+    private TextToSpeech tts;
     private static final String TAG = MainActivity.class.getSimpleName();
 
     static {
@@ -30,8 +36,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        OpenCVHelper.mainactivity = this;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        tts = new TextToSpeech(this, this);
         CameraPreview cameraPreview = (CameraPreview) findViewById(R.id.camera_preview);
         cameraPreview.setCallback((data, camera) -> {
             CameraData cameraData = new CameraData();
@@ -52,15 +60,24 @@ public class MainActivity extends AppCompatActivity {
                 .concatMap(this::detectRect)
                 .compose(mainAsync())
                 .subscribe(matData -> {
+
                     if (drawView != null) {
                         if (matData.cameraPath != null) {
                             drawView.setPath(matData.cameraPath);
+                            ;
                         } else {
                             drawView.setPath(null);
                         }
                         drawView.invalidate();
+
                     }
+
                 });
+
+//        Intent myIntent = new Intent(MainActivity.this, com.osanda.ocr.CaptureActivity.class);
+//        finish();
+//        startActivity(myIntent)
+
     }
 
     private Observable<MatData> detectRect(MatData mataData) {
@@ -73,6 +90,42 @@ public class MainActivity extends AppCompatActivity {
     private static <T> Observable.Transformer<T, T> mainAsync() {
         return obs -> obs.subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread());
+    }
+
+    @Override
+    public void onInit(int status) {
+
+        if (status == TextToSpeech.SUCCESS) {
+            int result = tts.setLanguage(Locale.UK);
+
+            if (result == TextToSpeech.LANG_MISSING_DATA
+                    || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                Toast.makeText(this, "Language not supported", Toast.LENGTH_LONG).show();
+                Log.e("TTS", "Language is not supported");
+            }
+        } else {
+            Log.e("TTS", "Initilization Failed");
+        }
+
+    }
+
+    public void speakOut(String text) {
+
+        //String text = txtText.getText().toString();
+        if (text.length() == 0) {
+            tts.speak("You haven't typed text", TextToSpeech.QUEUE_FLUSH, null);
+
+        } else {
+            tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+            //tts.speak("You haven't typed text", TextToSpeech.QUEUE_ADD, null);
+        }
+
+//        try {
+//            Thread.sleep(text.length()*100);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+
     }
 
 }

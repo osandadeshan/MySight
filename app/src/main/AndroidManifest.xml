@@ -71,7 +71,7 @@
         </activity>
         <activity
             android:name=".ocr.ShowResult"
-            android:label="Text Extractor (OCR Text Scanner)"
+            android:label="MySight"
             android:parentActivityName="ocr.CaptureActivity"
             android:theme="@android:style/Theme.Holo.Light.DarkActionBar"></activity>
         <activity android:name=".ocr.PreferencesActivity" />
