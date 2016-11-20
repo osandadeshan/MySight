@@ -1,5 +1,6 @@
 package com.osanda.rectangledetection;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +8,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.osanda.R;
+import com.osanda.ocr.CaptureActivity;
 import com.osanda.rectangledetection.models.CameraData;
 import com.osanda.rectangledetection.models.MatData;
 import com.osanda.rectangledetection.utils.OpenCVHelper;
@@ -118,6 +120,17 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         } else {
             tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
             //tts.speak("You haven't typed text", TextToSpeech.QUEUE_ADD, null);
+        }
+        if (text == "stop moving") {
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            this.finish();
+            Intent myIntent = new Intent(MainActivity.this, CaptureActivity.class);
+            MainActivity.this.startActivity(myIntent);
+
         }
 
 //        try {

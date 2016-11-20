@@ -251,7 +251,6 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-
         checkFirstLaunch();
 
         if (isFirstLaunch) {
@@ -294,13 +293,14 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
 
         // Set listener to change the size of the viewfinder rectangle.
         viewfinderView.setOnTouchListener(new View.OnTouchListener() {
-            int lastX = -1;
-            int lastY = -1;
+            int lastX = 10;
+            int lastY = 10;
 
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 switch (event.getAction()) {
                     case MotionEvent.ACTION_DOWN:
+                        handler.shutterButtonClick();
                         lastX = -1;
                         lastY = -1;
                         return true;
@@ -369,6 +369,7 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
                         lastY = -1;
                         return true;
                 }
+
                 return false;
             }
         });
@@ -1037,10 +1038,12 @@ public final class CaptureActivity extends Activity implements SurfaceHolder.Cal
 
     @SuppressWarnings("unused")
     void setButtonVisibility(boolean visible) {
+        shutterButton.setVisibility(View.GONE);
         if (shutterButton != null && visible == true && DISPLAY_SHUTTER_BUTTON) {
-            shutterButton.setVisibility(View.VISIBLE);
+//            shutterButton.setVisibility(View.VISIBLE);
+//            shutterButton.setVisibility(View.GONE);
         } else if (shutterButton != null) {
-            shutterButton.setVisibility(View.GONE);
+//            shutterButton.setVisibility(View.GONE);
         }
     }
 

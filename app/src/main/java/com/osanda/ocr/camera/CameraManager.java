@@ -185,20 +185,24 @@ public final class CameraManager {
                 // Called early, before init even finished
                 return null;
             }
-            int width = screenResolution.x * 3 / 5;
-            if (width < MIN_FRAME_WIDTH) {
-                width = MIN_FRAME_WIDTH;
-            } else if (width > MAX_FRAME_WIDTH) {
-                width = MAX_FRAME_WIDTH;
-            }
-            int height = screenResolution.y * 1 / 5;
-            if (height < MIN_FRAME_HEIGHT) {
-                height = MIN_FRAME_HEIGHT;
-            } else if (height > MAX_FRAME_HEIGHT) {
-                height = MAX_FRAME_HEIGHT;
-            }
-            int leftOffset = (screenResolution.x - width) / 2;
-            int topOffset = (screenResolution.y - height) / 2;
+            //int width = screenResolution.x * 3 / 5;
+            int width = screenResolution.x;
+//            if (width < MIN_FRAME_WIDTH) {
+//                width = MIN_FRAME_WIDTH;
+//            } else if (width > MAX_FRAME_WIDTH) {
+//                width = MAX_FRAME_WIDTH;
+//            }
+            //int height = screenResolution.y * 1 / 5;
+            int height = screenResolution.y;
+//            if (height < MIN_FRAME_HEIGHT) {
+//                height = MIN_FRAME_HEIGHT;
+//            } else if (height > MAX_FRAME_HEIGHT) {
+//                height = MAX_FRAME_HEIGHT;
+//            }
+//            int leftOffset = (screenResolution.x - width) / 2;
+//            int topOffset = (screenResolution.y - height) / 2;
+            int leftOffset = 0;
+            int topOffset = 0;
             framingRect = new Rect(leftOffset, topOffset, leftOffset + width, topOffset + height);
         }
         return framingRect;
