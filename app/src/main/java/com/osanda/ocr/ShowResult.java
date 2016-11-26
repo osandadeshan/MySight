@@ -189,7 +189,7 @@ public class ShowResult extends Activity implements TextToSpeech.OnInitListener 
             Log.e("TTS", "Initilization Failed");
         }
 
-        //  speakOut(tem);
+        speakOut(tem);
 
     }
 

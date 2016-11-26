@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
             tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
             //tts.speak("You haven't typed text", TextToSpeech.QUEUE_ADD, null);
         }
-        if (text == "stop moving") {
+        if (text == "Detected") {
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {

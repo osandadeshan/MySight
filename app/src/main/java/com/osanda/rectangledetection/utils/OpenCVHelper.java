@@ -130,7 +130,7 @@ public class OpenCVHelper {
                 List<Point> points = approx.toList();
                 int pointCount = points.size();
                 double threshold = 0.3;
-                // eranga begin
+
                 //if(prevTime == -1 || prevTime + 1000 < System.currentTimeMillis()) {
                 if (pointCount == 4 && screenWidth * screenHeight != 0) {
                     double lbWidth = screenWidth * threshold / 2;
@@ -156,7 +156,7 @@ public class OpenCVHelper {
                             System.out.println("Device is in perfect position. Keep it stable");
                             move = Movement.STOPPED;
                             prevTime = System.currentTimeMillis();
-                            mainactivity.speakOut("stop moving");
+                            mainactivity.speakOut("Detected");
                         }
                     } else {
                         if (maxX - minX < screenWidth * (1 - threshold) && maxY - minY < screenHeight * (1 - threshold)) {
@@ -164,7 +164,7 @@ public class OpenCVHelper {
                                 System.out.println("Slowly move the device closer");
                                 move = Movement.CLOSER;
                                 prevTime = System.currentTimeMillis();
-                                mainactivity.speakOut("slowly move closer");
+                                mainactivity.speakOut("Move closer");
                             }
                         }
                         if (minX < lbWidth) {
@@ -172,7 +172,7 @@ public class OpenCVHelper {
                                 System.out.println("Slowly move the device backward");
                                 move = Movement.BACKWARD;
                                 prevTime = System.currentTimeMillis();
-                                mainactivity.speakOut("slowly move backward");
+                                mainactivity.speakOut("Move backward");
                             }
                         }
                         if (maxX > ubWidth) {
@@ -180,7 +180,7 @@ public class OpenCVHelper {
                                 System.out.println("Slowly move the device forward");
                                 move = Movement.FORWARD;
                                 prevTime = System.currentTimeMillis();
-                                mainactivity.speakOut("slowly move forward");
+                                mainactivity.speakOut("Move forward");
                             }
                         }
                         if (minY < lbHeight) {
@@ -188,7 +188,7 @@ public class OpenCVHelper {
                                 System.out.println("Slowly move the device to the left side");
                                 move = Movement.LEFT;
                                 prevTime = System.currentTimeMillis();
-                                mainactivity.speakOut("slowly move left");
+                                mainactivity.speakOut("Move left");
                             }
                         }
                         if (maxY > ubHeight) {
@@ -196,7 +196,7 @@ public class OpenCVHelper {
                                 System.out.println("Slowly move the device to the right side");
                                 move = Movement.RIGHT;
                                 prevTime = System.currentTimeMillis();
-                                mainactivity.speakOut("slowly move right");
+                                mainactivity.speakOut("Move right");
                             }
                         }
                     }
@@ -205,13 +205,14 @@ public class OpenCVHelper {
                         System.out.println("Slowly move the device away from the material");
                         move = Movement.AWAY;
                         prevTime = System.currentTimeMillis();
-                        mainactivity.speakOut("slowly move away");
+                        mainactivity.speakOut("Move away");
                     }
                 }
+
                 //}else{
                 //    prevTime = System.currentTimeMillis();
                 //}
-                // eranga end
+
                 LinkedList<Double> cos = new LinkedList<>();
                 for (int j = 2; j < pointCount + 1; j++) {
                     cos.addLast(angle(points.get(j % pointCount), points.get(j - 2), points.get(j - 1)));
