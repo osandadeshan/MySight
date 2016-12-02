@@ -42,10 +42,10 @@ public class OpenCVHelper {
             float ratioH = height / requestHeight;
             float scaleRatio = ratioW > ratioH ? ratioW : ratioH;
             Size size = new Size(mat.width() / scaleRatio, mat.height() / scaleRatio);
-            // eranga begin
+          
             screenHeight = size.height;
             screenWidth = size.width;
-            // eranga end
+            
             Mat resultMat = new Mat(size, mat.type());
             Imgproc.resize(mat, resultMat, size);
             //Log.v(TAG, "request size:" + requestWidth + "," + requestHeight +" ,scale to:" + resultMat.width() + "," + resultMat.height());
