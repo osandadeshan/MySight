@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

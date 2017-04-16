@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/help_view">
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/resultText"
+        android:padding="30dp"
+        android:scrollbars="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:background="@drawable/textfieldnew"
+        android:linksClickable="true"
+        android:singleLine="false" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="4dip"
+        android:visibility="gone"
+        android:weightSum="1"
+        android:background="@color/help_button_view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/done_button"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Done" />
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/help_contents"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fadingEdge="vertical"
+        android:fadingEdgeLength="12dip" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

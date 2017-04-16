@@ -1,0 +1,610 @@
+[
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_focused_holo_dark.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_focused_holo_dark.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_email.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\button_email.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\delete.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textfield_pressed.9.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\textfield_pressed.9.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_activated_holo_dark.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_activated_holo_dark.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shutter_button.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\shutter_button.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pdf_button_hover.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\pdf_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heading.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\heading.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_copy.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\button_copy.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clear2.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\clear2.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\email.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\speak_button_hover.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\speak_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_pdf.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\button_pdf.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\speak.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\speak.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_copy2.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_copy2.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\show.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\show.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_clear.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_clear.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pdf.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\pdf.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textfield_pressed.9.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\textfield_pressed.9.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email_button_hover.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\email_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_share.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_share.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_default_holo_dark.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_default_holo_dark.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_pdf.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\button_pdf.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_email.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_email.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_clear.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\button_clear.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\copy.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_disabled_focused_holo_dark.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_disabled_focused_holo_dark.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textfield_selected.9.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\textfield_selected.9.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_speak.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_speak.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_holo_dark.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\edit_text_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shutter_button.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\shutter_button.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_speak.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\button_speak.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flash_off.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\flash_off.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flash_on.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\flash_on.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\share.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_location_found.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_location_found.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_speak.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_speak.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy2.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\copy2.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\copy.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_copy.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\button_copy.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_activated_holo_dark.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_activated_holo_dark.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_location_found.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_location_found.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flash_off.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\flash_off.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy3.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\copy3.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_clear.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\button_clear.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_copy.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_copy.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy2.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\copy2.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pdf_button_hover.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\pdf_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_speak.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\button_speak.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pdf.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\pdf.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_disabled_focused_holo_dark.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_disabled_focused_holo_dark.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\share.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\show.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\show.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heading.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\heading.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_holo_dark.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\edit_text_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clear.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\clear.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_refresh.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_refresh.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_copy.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_copy.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_search.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_search.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clear2.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\clear2.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_refresh.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_refresh.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_button_hover.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\share_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy3.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\copy3.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_default_holo_dark.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_default_holo_dark.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clear.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\clear.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_share.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\button_share.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_share.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_share.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy_button_hover.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\copy_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\speak_button_hover.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\speak_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textfield_selected.9.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\textfield_selected.9.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_copy2.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_copy2.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_email.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_email.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_email.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\button_email.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\delete.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textfieldnew.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\textfieldnew.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_disabled_holo_dark.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_disabled_holo_dark.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_focused_holo_dark.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_focused_holo_dark.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_share.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\button_share.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_clear.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_clear.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_share2.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_share2.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textfieldnew.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\textfieldnew.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email_button_hover.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\email_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_button_hover.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\share_button_hover.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textfield.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\textfield.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_bg.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_help.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_help.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_help.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_help.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_share2.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\ic_action_share2.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clear_button_hover.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\clear_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\copy_button_hover.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\copy_button_hover.xml"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clear_button_hover.xml",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\clear_button_hover.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\flash_on.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\flash_on.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\apptheme_textfield_disabled_holo_dark.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\apptheme_textfield_disabled_holo_dark.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\email.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\speak.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\speak.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textfield.png",
+        "source": "F:\\AndroidStudioProjects\\MySight\\app\\src\\main\\res\\drawable\\textfield.png"
+    },
+    {
+        "merged": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_search.png",
+        "source": "F:\\OpenCVForAndroid\\2016_11_20\\MySight\\app\\src\\main\\res\\drawable\\ic_action_search.png"
+    }
+]
